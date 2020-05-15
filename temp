@@ -1,0 +1,9 @@
+export PATH=$JAVA8_HOME:$PATH
+
+cd /code/workspace
+
+cp $eval_prog eval.java
+
+javac *.java
+
+java eval
